@@ -1,0 +1,123 @@
+{
+  "next": 2,
+  "tickets": {
+    "1": {
+      "id": 1,
+      "userId": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+      "category": "purchase",
+      "status": "open",
+      "priority": "medium",
+      "claimedBy": null,
+      "createdAt": "2026-10-18T06:35:07.454Z",
+      "history": []
+    }
+  },
+  "servers": {
+    "461227d8-56c7-4d5e-806c-03656cb02522": {
+      "next": 4,
+      "allowed": [],
+      "responderRole": "f884c2d6-d55f-4863-bf4f-3956dda2d395",
+      "botRole": "3d212330-c4a4-40bd-8772-fa897b192e00",
+      "editorChannel": "9a5226c4-2747-48f7-8b04-45846fa6fcdb",
+      "panel": {
+        "title": "🎫 Support Center",
+        "description": "Click a button below to open a ticket.",
+        "color": "#5865F2",
+        "buttons": [
+          {
+            "id": "general",
+            "label": "General Support",
+            "emoji": "🎫",
+            "style": "primary"
+          },
+          {
+            "id": "purchase",
+            "label": "Purchase Support",
+            "emoji": "💰",
+            "style": "success"
+          }
+        ]
+      }
+    }
+  },
+  "modmailTickets": {
+    "461227d8-56c7-4d5e-806c-03656cb02522:1": {
+      "number": 1,
+      "serverId": "461227d8-56c7-4d5e-806c-03656cb02522",
+      "channelId": "93059ebd-5b46-4454-9a2d-250fc4a08580",
+      "userId": "b07756af-51c9-45dc-8845-1504f14b0ed0",
+      "category": "General Support",
+      "status": "deleted",
+      "claimedBy": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+      "createdAt": "2026-10-18T08:15:32.877Z",
+      "history": [
+        {
+          "author": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+          "message": "hi",
+          "at": "2026-10-18T08:15:56.220Z"
+        },
+        {
+          "author": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+          "message": "hello",
+          "at": "2026-10-18T08:16:08.373Z"
+        }
+      ]
+    },
+    "461227d8-56c7-4d5e-806c-03656cb02522:2": {
+      "number": 2,
+      "serverId": "461227d8-56c7-4d5e-806c-03656cb02522",
+      "channelId": "6aae2d34-b77f-41fc-af40-d073f6b4a87e",
+      "userId": "b07756af-51c9-45dc-8845-1504f14b0ed0",
+      "category": "Purchase Support",
+      "status": "deleted",
+      "claimedBy": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+      "createdAt": "2026-10-18T08:25:08.780Z",
+      "history": [
+        {
+          "author": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+          "message": "hi",
+          "at": "2026-10-18T08:25:32.894Z"
+        }
+      ]
+    },
+    "461227d8-56c7-4d5e-806c-03656cb02522:3": {
+      "number": 3,
+      "serverId": "461227d8-56c7-4d5e-806c-03656cb02522",
+      "channelId": "3144cfa1-2050-48a1-9ee6-467cd90963f5",
+      "userId": "b07756af-51c9-45dc-8845-1504f14b0ed0",
+      "category": "Purchase Support",
+      "status": "closed",
+      "claimedBy": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+      "createdAt": "2026-10-18T08:56:36.713Z",
+      "history": [
+        {
+          "author": "f64e6d56-8efb-4dba-b8b3-670e224bfa6c",
+          "message": "hi",
+          "at": "2026-10-18T08:56:51.829Z"
+        },
+        {
+          "author": "opener",
+          "message": "hi",
+          "at": "2026-10-18T08:57:18.572Z"
+        }
+      ]
+    }
+  },
+  "selections": {
+    "b07756af-51c9-45dc-8845-1504f14b0ed0": "461227d8-56c7-4d5e-806c-03656cb02522:3"
+  },
+  "cursor": "804001",
+  "dmChannels": {
+    "b07756af-51c9-45dc-8845-1504f14b0ed0": "c52d7866-8818-41ca-a18c-5eaf07b643b8",
+    "f64e6d56-8efb-4dba-b8b3-670e224bfa6c": "4e10a0c0-88db-4a1e-9d10-324bf9ef356b"
+  },
+  "dmReads": {
+    "b07756af-51c9-45dc-8845-1504f14b0ed0": {
+      "after": "2026-10-18T08:57:11.886493+00:00",
+      "seen": [
+        "1914cbe9-04d9-475d-bae0-78f36aa6c74c"
+      ]
+    }
+  },
+  "dmRecoverySince": "2026-10-18T08:54:38.316Z"
+}
